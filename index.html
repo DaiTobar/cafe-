@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Sisters Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#home" class="logo">
+          <img src="images.jpeg" alt="Three Sisters Logo" />
+        </a>
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact Us </a></li>
+          </ul>
+          <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="Home">
+      <div id="hero">
+        <h2>Welcom To Three Sisters Cafe</h2>
+        <p>
+          You Can't Buy Hapiness But You Can Buy coffee And that's Close Enough
+        </p>
+        <button onclick="ordernow()">order now</button>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Three Sisters cafe is a place created with the effort of three hard
+        working sisters. Ehach sister specializes in one drink which makes our
+        menu contain only three items. Each item made by one sister defined with
+        love and perfection. Our goal is to make you our favorite drink so you
+        can enjoy it as much as we do.
+      </p>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="Spanish-Latte-Recipe-7.webp" alt="Spanish Latte" />
+          <p class="item-name">Spanish Latte</p>
+          <p class="item-price">80 L.E</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="cap.webp" alt="Cappuccino" />
+          <p class="item-name">Cappuccino</p>
+          <p class="item-price">60 L.E</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="hong-kong-milk-tea.jpg" alt="Milk Tea" />
+          <p class="item-name">Milk Tea</p>
+          <p class="item-price">40 L.E</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Follow us at our accounts</p>
+      <p>Our number 0123456789</p>
+    </section>
+    <footer>
+      <p>&COPY; Three sisters cafe. All rights are reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
